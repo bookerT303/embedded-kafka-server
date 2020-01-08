@@ -21,7 +21,7 @@ public class EmbeddedKafkaServer {
 
     private static Logger log = LoggerFactory.getLogger(EmbeddedKafkaServer.class);
 
-    private static String[] topics;
+    private static String[] topics = {"no-topics-specified"};
 
     public static void main(String[] args) {
         if (args.length == 0) {
